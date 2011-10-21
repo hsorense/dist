@@ -1,0 +1,8 @@
+To read a file which contains data into Octave .. use 
+[val,count] = fscanf(fid, template, {number of conversions})
+the template is like C .. "%d" .. "%x" .. "%f"
+fid is the file id from ..   fid = fopen ("filename", "r")
+if number of conversions is not specified it defaults to all until EOF
+
+returns an array of values .. val
+and the count of how many values were converted
