@@ -6,3 +6,5 @@ if number of conversions is not specified it defaults to all until EOF
 
 returns an array of values .. val
 and the count of how many values were converted
+
+Added to Octave
